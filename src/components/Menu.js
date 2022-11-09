@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Product from "./Product";
 
-export default function Menu() {
+export default function Menu(props) {
+  const { products } = props;
+
   return (
     <main className="block col-2">
-        Menu
+      <div className="row">
+        {products.map((product) => (
+          <Product key={product.id} product={product} />
+        ))}
+      </div>
     </main>
-  )
+  );
 }

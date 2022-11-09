@@ -27,3 +27,30 @@ header img {
 h1, h2, h3 {
   margin: 0.5rem 0.5rem;
 }
+main .row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}   
+.card {
+  background-color: tan;
+  margin: 0.5rem;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.card .info {
+  padding: 0.5rem;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img.small {
+  width: 100%;
+}
