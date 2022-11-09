@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Neucha', cursive;
+  background-color:bisque;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.block {
+  padding: 1rem;
+  margin: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.col-2 {
+  flex: 2;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-1 {
+  flex: 1;
+}
+header.block {
+  border: 0.01rem #404040 solid;
+  background-color: tan;
+}
+header img {
+  max-height: 3rem;
+}
+h1, h2, h3 {
+  margin: 0.5rem 0.5rem;
 }
