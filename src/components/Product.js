@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Product(props) {
-  const { product } = props;
+  const { product, onAdd } = props;
 
   return (
     <div className="card">
@@ -11,7 +11,7 @@ export default function Product(props) {
         <p>{product.description}</p>
         <div className="row">
           <h3>$ {product.price.toFixed(2)}</h3>
-          <button>Buy</button>
+          <button onClick={() => onAdd(product)}>Buy</button>
         </div>
       </div>
     </div>

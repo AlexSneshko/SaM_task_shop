@@ -54,3 +54,36 @@ main .row {
 img.small {
   width: 100%;
 }
+.cartItem {
+  border: 0.01rem #404040 solid;
+  border-left: none;
+  border-right: none;
+  padding: none;
+}
+.cartItem p {
+  margin: 0.1rem;
+}
+.cart {
+  padding: 0px;
+  margin-top: 30px;
+  border: 0.01rem #404040 solid;
+  background-color: tan;
+}
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+.cartItem button {
+  vertical-align: middle;
+  margin-top: 10px 
+}
+.cart-bottom {
+  margin: 0.5rem;
+  border: 0.01rem #404040 solid;
+  bottom: 0;
+  display: fixed;
+}
+.cart .row {
+  justify-content: space-between;
+}
