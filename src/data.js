@@ -46,6 +46,15 @@ const data = {
       description:
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae magni, quae maxime officiis, modi a soluta eligendi voluptatum, culpa saepe alias. Harum possimus delectus voluptate!",
     },
+    {
+      id: "6",
+      name: "Headphones",
+      price: 14.99,
+      image:
+        "https://i.pinimg.com/originals/c7/a0/4a/c7a04a031ed8341798792dde36ff47e2.png",
+      description:
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae magni, quae maxime officiis, modi a soluta eligendi voluptatum, culpa saepe alias. Harum possimus delectus voluptate!",
+    },
   ],
 };
 
